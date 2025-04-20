@@ -1,0 +1,12 @@
+emoji==2.14.1
+gensim==4.3.3
+google_play_scraper==1.2.7
+googletrans==4.0.2
+keras_tuner==1.4.7
+nltk==3.9.1
+numpy==2.2.4
+pandas==2.2.3
+pycorenlp==0.3.0
+scikit_learn==1.6.1
+tensorflow==2.18.0
+tensorflow_intel==2.18.0
