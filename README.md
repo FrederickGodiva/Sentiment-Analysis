@@ -59,8 +59,14 @@ This project aims to build a sentiment analysis model for user reviews of the [D
    
 3. Create Python Virtual Environment
 
+   Linux
    ```bash
-   virtualenv venv
+   python3 -m virtualenv venv
+   ```
+
+   Windows:
+   ```bash
+   python -m virtualenv venv
    ```
    
 4. Activate the Environment
