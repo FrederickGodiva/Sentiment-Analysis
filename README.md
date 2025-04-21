@@ -16,7 +16,7 @@ This project aims to build a sentiment analysis model for user reviews of the [D
 # Project Structure
 
 ```
-├── 1 - Data Scraping.ipynb             # notebook for scraping raw app review data 
+├── 1 - Data Scraping.ipynb             # notebook for scraping raw app review data
 ├── 2 - Data Preprocessing.ipynb        # notebook for cleaning and preprocessing the raw data
 ├── 3 - Data Preparation.ipynb          # notebook for formatting and organizing data for training
 ├── 4 - Feature Extraction.ipynb        # notebook for extracting meaningful features from the data
@@ -56,38 +56,48 @@ This project aims to build a sentiment analysis model for user reviews of the [D
    ```bash
    pip install virtualenv
    ```
-   
+
 3. Create Python Virtual Environment
 
    Linux / Mac:
+
    ```bash
    python3 -m virtualenv venv
    ```
 
    Windows:
+
    ```bash
    python -m virtualenv venv
    ```
-   
+
 4. Activate the Environment
 
    Linux / Mac:
+
    ```bash
    source venv\bin\activate
    ```
 
    Windows:
+
    ```bash
    venv\Scripts\activate
    ```
-   
+
 5. Install all the requirements
 
    ```bash
    pip install -r requirements.txt
    ```
-   
+
 6. Open each notebook and run each cell code
+
+7. Exit the Virtual Environment
+
+   ```bash
+   deactivate
+   ```
 
 ---
 
